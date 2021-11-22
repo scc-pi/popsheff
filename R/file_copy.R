@@ -3,6 +3,23 @@
 #               to  share with the rest of the team
 # Author: Laurie Platt
 
+# share df_pop_la.rds ----
+fs::file_copy(
+  "data-out/df_pop_la.rds",
+  stringr::str_c(
+    "S:/Public Health/Policy Performance Communications/",
+    "Business Intelligence/Projects/AdultSocialCare/ASC_SNA/data/",
+    "df_pop_la.rds"),
+  overwrite = TRUE)
+
+# local ASC_SNA df_pop_la.rds ----
+fs::file_copy(
+  "data-out/df_pop_la.rds",
+  stringr::str_c(
+    "C:/Users/lp41455/OneDrive - Sheffield City Council/Repo/ASC_SNA/data/",
+    "df_pop_la.rds"),
+  overwrite = TRUE)
+
 
 # share df_pop_lsoa_20.rds ----
 fs::file_copy(
