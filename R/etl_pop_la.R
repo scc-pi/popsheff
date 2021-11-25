@@ -25,6 +25,9 @@ pop_yrs_sheet <- "MYE4"
 # Name of the sheet with LA median ages from 2001 to 2020
 pop_median_age_sheet <- "MYE 6"
 
+# Name of the sheet with latest LA population estimates by year of age
+pop_age_sheet <- "MYE2 - Persons"
+
 # READ -------------------------
 # Note: Manually downloaded from ONS for now
 
@@ -36,6 +39,11 @@ df_pop_yrs <- read_xls(
 df_pop_median_age <- read_xls(
   path = str_c(data_in_folder, "/", pop_la_file),
   sheet = pop_median_age_sheet,
+  skip = 7)
+
+df_pop_age <- read_xls(
+  path = str_c(data_in_folder, "/", pop_la_file),
+  sheet = pop_age_sheet,
   skip = 7)
 
 # TRANSFORM ---------------------
@@ -58,9 +66,18 @@ df_pop_median_age <- df_pop_median_age %>%
   mutate(Year = str_replace(Year, "Mid-", "")) %>% 
   mutate(Year = as.numeric(Year)) # or type year?
 
+df_pop_age <- df_pop_age %>% 
+  filter(Name == "Sheffield") %>% 
+  select(-Code, -Name, -Geography) %>% 
+  pivot_longer(cols = everything(), 
+               names_to = "Age",
+               values_to = "Persons")
+
 # WRITE --------------------------
 
 # Write the data frame to a folder so we can quickly use them in R
 write_rds(df_pop_yrs, str_c(data_out_folder, "/df_pop_la_yrs.rds"))
 
 write_rds(df_pop_median_age, str_c(data_out_folder, "/df_pop_la_median_age.rds"))
+
+write_rds(df_pop_age, str_c(data_out_folder, "/df_pop_la_age.rds"))
