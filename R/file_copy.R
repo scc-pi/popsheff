@@ -23,6 +23,45 @@ fs::file_copy(
   overwrite = TRUE)
 
 
+# df_pop_la_age_male.rds -------------------------------------------
+
+## network share ----
+fs::file_copy(
+  "data-out/df_pop_la_age_male.rds",
+  stringr::str_c(
+    "S:/Public Health/Policy Performance Communications/",
+    "Business Intelligence/Projects/AdultSocialCare/ASC_SNA/data/",
+    "population/df_pop_la_age_male.rds"),
+  overwrite = TRUE)
+
+## local ASC_SNA repo ----
+fs::file_copy(
+  "data-out/df_pop_la_age_male.rds",
+  stringr::str_c(
+    "C:/Users/lp41455/OneDrive - Sheffield City Council/Repo/ASC_SNA/data/",
+    "population/df_pop_la_age_male.rds"),
+  overwrite = TRUE)
+
+# df_pop_la_age_female.rds -------------------------------------------
+
+## network share ----
+fs::file_copy(
+  "data-out/df_pop_la_age_female.rds",
+  stringr::str_c(
+    "S:/Public Health/Policy Performance Communications/",
+    "Business Intelligence/Projects/AdultSocialCare/ASC_SNA/data/",
+    "population/df_pop_la_age_female.rds"),
+  overwrite = TRUE)
+
+## local ASC_SNA repo ----
+fs::file_copy(
+  "data-out/df_pop_la_age_female.rds",
+  stringr::str_c(
+    "C:/Users/lp41455/OneDrive - Sheffield City Council/Repo/ASC_SNA/data/",
+    "population/df_pop_la_age_female.rds"),
+  overwrite = TRUE)
+
+
 # df_pop_la_median_age.rds -------------------------------------------
 
 ## network share ----
