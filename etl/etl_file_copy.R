@@ -7,7 +7,7 @@
 
 ## network share ----
 fs::file_copy(
-  "data-out/df_pop_la_age.rds",
+  "data/df_pop_la_age.rds",
   stringr::str_c(
     "S:/Public Health/Policy Performance Communications/",
     "Business Intelligence/Projects/AdultSocialCare/ASC_SNA/data/",
@@ -16,7 +16,7 @@ fs::file_copy(
 
 ## local ASC_SNA repo ----
 fs::file_copy(
-  "data-out/df_pop_la_age.rds",
+  "data/df_pop_la_age.rds",
   stringr::str_c(
     "C:/Users/lp41455/OneDrive - Sheffield City Council/Repo/ASC_SNA/data/",
     "population/df_pop_la_age.rds"),
@@ -27,7 +27,7 @@ fs::file_copy(
 
 ## network share ----
 fs::file_copy(
-  "data-out/df_pop_la_age_male.rds",
+  "data/df_pop_la_age_male.rds",
   stringr::str_c(
     "S:/Public Health/Policy Performance Communications/",
     "Business Intelligence/Projects/AdultSocialCare/ASC_SNA/data/",
@@ -36,7 +36,7 @@ fs::file_copy(
 
 ## local ASC_SNA repo ----
 fs::file_copy(
-  "data-out/df_pop_la_age_male.rds",
+  "data/df_pop_la_age_male.rds",
   stringr::str_c(
     "C:/Users/lp41455/OneDrive - Sheffield City Council/Repo/ASC_SNA/data/",
     "population/df_pop_la_age_male.rds"),
@@ -46,7 +46,7 @@ fs::file_copy(
 
 ## network share ----
 fs::file_copy(
-  "data-out/df_pop_la_age_female.rds",
+  "data/df_pop_la_age_female.rds",
   stringr::str_c(
     "S:/Public Health/Policy Performance Communications/",
     "Business Intelligence/Projects/AdultSocialCare/ASC_SNA/data/",
@@ -55,7 +55,7 @@ fs::file_copy(
 
 ## local ASC_SNA repo ----
 fs::file_copy(
-  "data-out/df_pop_la_age_female.rds",
+  "data/df_pop_la_age_female.rds",
   stringr::str_c(
     "C:/Users/lp41455/OneDrive - Sheffield City Council/Repo/ASC_SNA/data/",
     "population/df_pop_la_age_female.rds"),
@@ -66,7 +66,7 @@ fs::file_copy(
 
 ## network share ----
 fs::file_copy(
-  "data-out/df_pop_la_median_age.rds",
+  "data/df_pop_la_median_age.rds",
   stringr::str_c(
     "S:/Public Health/Policy Performance Communications/",
     "Business Intelligence/Projects/AdultSocialCare/ASC_SNA/data/",
@@ -75,7 +75,7 @@ fs::file_copy(
 
 ## local ASC_SNA repo ----
 fs::file_copy(
-  "data-out/df_pop_la_median_age.rds",
+  "data/df_pop_la_median_age.rds",
   stringr::str_c(
     "C:/Users/lp41455/OneDrive - Sheffield City Council/Repo/ASC_SNA/data/",
     "population/df_pop_la_median_age.rds"),
@@ -86,7 +86,7 @@ fs::file_copy(
 
 ## network share ----
 fs::file_copy(
-  "data-out/df_pop_la_yrs.rds",
+  "data/df_pop_la_yrs.rds",
   stringr::str_c(
     "S:/Public Health/Policy Performance Communications/",
     "Business Intelligence/Projects/AdultSocialCare/ASC_SNA/data/",
@@ -95,7 +95,7 @@ fs::file_copy(
 
 ## local ASC_SNA repo ----
 fs::file_copy(
-  "data-out/df_pop_la_yrs.rds",
+  "data/df_pop_la_yrs.rds",
   stringr::str_c(
     "C:/Users/lp41455/OneDrive - Sheffield City Council/Repo/ASC_SNA/data/",
     "population/df_pop_la_yrs.rds"),
@@ -106,7 +106,7 @@ fs::file_copy(
 
 ## network share ----
 fs::file_copy(
-  "data-out/df_pop_lsoa_20.rds",
+  "data/df_pop_lsoa_20.rds",
   stringr::str_c(
     "S:/Public Health/Policy Performance Communications/",
     "Business Intelligence/Projects/AdultSocialCare/ASC_SNA/data/",
@@ -115,7 +115,7 @@ fs::file_copy(
 
 ## local ASC_SNA repo ----
 fs::file_copy(
-  "data-out/df_pop_lsoa_20.rds",
+  "data/df_pop_lsoa_20.rds",
   stringr::str_c(
     "C:/Users/lp41455/OneDrive - Sheffield City Council/Repo/ASC_SNA/data/",
     "population/df_pop_lsoa_20.rds"),

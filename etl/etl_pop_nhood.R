@@ -9,11 +9,11 @@ library(tidyverse);library(readxl)
 
 # Location of data we're reading
 data_in_folder <- str_c(
-  "data-in")
+  "ons-files")
 
 # Location of data we're creating
 data_out_folder <- str_c(
-  "data-out")
+  "data")
 
 # Name of the file with 2020 population estimates at LSOA level
 pop_lsoa_20_file <- "sape23dt13mid2020lsoabroadagesestimatesunformatted.xlsx"
@@ -28,8 +28,8 @@ df_pop_lsoa_20 <- read_xlsx(
 
 # TRANSFORM ---------------------
 
-df_pop_lsoa_20 <-  df_pop_lsoa_20 %>% 
-  filter(`LA name (2021 boundaries)` == "Sheffield") %>% 
+df_pop_lsoa_20 <-  df_pop_lsoa_20 %>%
+  filter(`LA name (2021 boundaries)` == "Sheffield") %>%
   select(-(3:6))
 
 # WRITE --------------------------

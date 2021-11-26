@@ -10,11 +10,11 @@ library(tidyverse);library(readxl)
 
 # Location of data we're reading
 data_in_folder <- str_c(
-  "data-in")
+  "ons-files")
 
 # Location of data we're creating
 data_out_folder <- str_c(
-  "data-out")
+  "data")
 
 # Name of the file with population estimates at LA level
 pop_la_file <- "ukpopestimatesmid2020on2021geography.xls"
@@ -67,42 +67,42 @@ df_pop_age_female <- read_xls(
 
 # TRANSFORM ---------------------
 
-df_pop_yrs <-  df_pop_yrs %>% 
-  filter(Name == "Sheffield") %>% 
-  pivot_longer(cols = starts_with("Mid-"), 
+df_pop_yrs <-  df_pop_yrs %>%
+  filter(Name == "Sheffield") %>%
+  pivot_longer(cols = starts_with("Mid-"),
                names_to = "Year",
-               values_to = "Population") %>% 
-  select(Year, Population) %>% 
-  mutate(Year = str_replace(Year, "Mid-", "")) %>% 
+               values_to = "Population") %>%
+  select(Year, Population) %>%
+  mutate(Year = str_replace(Year, "Mid-", "")) %>%
   mutate(Year = as.numeric(Year)) # or type year?
 
-df_pop_median_age <- df_pop_median_age %>% 
-  filter(Name == "Sheffield") %>% 
-  pivot_longer(cols = starts_with("Mid-"), 
+df_pop_median_age <- df_pop_median_age %>%
+  filter(Name == "Sheffield") %>%
+  pivot_longer(cols = starts_with("Mid-"),
                names_to = "Year",
-               values_to = "Median age") %>% 
-  select(Year, `Median age`) %>% 
-  mutate(Year = str_replace(Year, "Mid-", "")) %>% 
+               values_to = "Median age") %>%
+  select(Year, `Median age`) %>%
+  mutate(Year = str_replace(Year, "Mid-", "")) %>%
   mutate(Year = as.numeric(Year)) # or type year?
 
-df_pop_age <- df_pop_age %>% 
-  filter(Name == "Sheffield") %>% 
-  select(-Code, -Name, -Geography) %>% 
-  pivot_longer(cols = everything(), 
+df_pop_age <- df_pop_age %>%
+  filter(Name == "Sheffield") %>%
+  select(-Code, -Name, -Geography) %>%
+  pivot_longer(cols = everything(),
                names_to = "Age",
                values_to = "Persons")
 
-df_pop_age_male <- df_pop_age_male %>% 
-  filter(Name == "Sheffield") %>% 
-  select(-Code, -Name, -Geography) %>% 
-  pivot_longer(cols = everything(), 
+df_pop_age_male <- df_pop_age_male %>%
+  filter(Name == "Sheffield") %>%
+  select(-Code, -Name, -Geography) %>%
+  pivot_longer(cols = everything(),
                names_to = "Age",
                values_to = "Males")
 
-df_pop_age_female <- df_pop_age_female %>% 
-  filter(Name == "Sheffield") %>% 
-  select(-Code, -Name, -Geography) %>% 
-  pivot_longer(cols = everything(), 
+df_pop_age_female <- df_pop_age_female %>%
+  filter(Name == "Sheffield") %>%
+  select(-Code, -Name, -Geography) %>%
+  pivot_longer(cols = everything(),
                names_to = "Age",
                values_to = "Females")
 
