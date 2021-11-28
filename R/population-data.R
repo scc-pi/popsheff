@@ -40,12 +40,13 @@ load_pop_df <- function(df_name){
   assign(df_name, get_pop_df(df_name), envir = .GlobalEnv)
 }
 
-#' Get a list of the Sheffield population data frames available
+#' Get a list of all the Sheffield population data frames available
 #'
-#' \code{list_all_pop_dfs} lists the Sheffield population data frames to 
-#' predefined variable name.
+#' \code{list_all_pop_dfs} lists the names of all the Sheffield population data  
+#' frames available.
 #'
-#' Call \code{load_all_pop_dfs} to load all Sheffield population data frames.
+#' Call \code{load_all_pop_dfs} to load all of the Sheffield population data 
+#' frames.
 #'
 #' @return Vector of characters.
 #'
@@ -68,12 +69,12 @@ list_all_pop_dfs <- function(){
 #' to predefined variable names.
 #'
 #' Call \code{list_all_pop_dfs} for a list of the variable names that will be 
-#' created as sheffield population data frames.
+#' created as Sheffield population data frames.
 #'
 #' @return none
 #'
 #' @examples
-#' print(list_all_pop_dfs())
+#' load_all_pop_dfs()
 #'
 #' @export
 #' @importFrom purrr walk
