@@ -43,3 +43,15 @@ head(pop_la_yrs)
     ## 4 2017     577789
     ## 5 2016     574050
     ## 6 2015     569177
+
+### pop_la_median_age
+
+### pop_la_age
+
+### pop_la_age_male
+
+### pop_la_age_female
+
+## LSOA level
+
+### pop_lsoa_age_band

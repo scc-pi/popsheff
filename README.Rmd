@@ -39,3 +39,35 @@ library(popsheff)
 ```{r pop_la_yrs}
 head(pop_la_yrs)
 ```
+
+### pop_la_median_age
+
+```{r pop_la_median_age, include=FALSE}
+head(pop_la_median_age)
+```
+
+### pop_la_age
+
+```{r pop_la_age, include=FALSE}
+head(pop_la_age)
+```
+
+### pop_la_age_male
+
+```{r pop_la_age_male, include=FALSE}
+head(pop_la_age_male)
+```
+
+### pop_la_age_female
+
+```{r pop_la_age_female, include=FALSE}
+head(pop_la_age_female)
+```
+
+## LSOA level
+
+### pop_lsoa_age_band
+```{r pop_lsoa_age_band, include=FALSE}
+head(pop_lsoa_age_band)
+```
+
