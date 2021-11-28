@@ -2,7 +2,7 @@
 % Please edit documentation in R/population-data.R
 \name{list_all_pop_dfs}
 \alias{list_all_pop_dfs}
-\title{Get a list of the Sheffield population data frames available}
+\title{Get a list of all the Sheffield population data frames available}
 \usage{
 list_all_pop_dfs()
 }
@@ -10,11 +10,12 @@ list_all_pop_dfs()
 Vector of characters.
 }
 \description{
-\code{list_all_pop_dfs} lists the Sheffield population data frames to
-predefined variable name.
+\code{list_all_pop_dfs} lists the names of all the Sheffield population data
+frames available.
 }
 \details{
-Call \code{load_all_pop_dfs} to load all Sheffield population data frames.
+Call \code{load_all_pop_dfs} to load all of the Sheffield population data
+frames.
 }
 \examples{
 print(list_all_pop_dfs())

@@ -6,7 +6,8 @@
 \title{popsheff: A package of Sheffield population data frames}
 \description{
 The popsheff package provides functions to get or load individual data
-frames. Plus functions to list or load all data frames.
+frames containing Sheffield population data. Plus, functions to list or load
+all data frames.
 }
 \section{Author}{
 

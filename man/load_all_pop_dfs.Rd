@@ -15,9 +15,9 @@ to predefined variable names.
 }
 \details{
 Call \code{list_all_pop_dfs} for a list of the variable names that will be
-created as sheffield population data frames.
+created as Sheffield population data frames.
 }
 \examples{
-print(list_all_pop_dfs())
+load_all_pop_dfs()
 
 }
