@@ -40,6 +40,3 @@ pop_lsoa_age_band <- pop_lsoa_age_band %>%
 # WRITE --------------------------
 
 usethis::use_data(pop_lsoa_age_band, compress = "xz", overwrite = T)
-
-# Write the data frame to a folder so we can quickly use them in R
-# write_rds(df_pop_yrs, str_c(data_out_folder, "/df_pop_la_yrs.rds"))

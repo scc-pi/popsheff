@@ -1,0 +1,27 @@
+---
+title: "popsheff"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Overview
+
+popsheff is an R package containing population data for Sheffield.
+
+# Installation  
+
+You can install the development version from GitHub with:
+
+```{r install, eval=FALSE}
+# install.packages("devtools")
+devtools::install_github("scc-pi/popsheff")
+```
+
+If you work for Sheffield City Council you can install the binary package from:  
+
+[S:\BI Team\ShareToAll\RPackages](S:\BI Team\ShareToAll\RPackages)
+
+Using RStudio you can does this via the *Tools > Install packages...* menu.

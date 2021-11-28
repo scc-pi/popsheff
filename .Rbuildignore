@@ -1,4 +1,5 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^etl$
 ^data-raw$
+^README\.Rmd$
+^file_copy\.R$
