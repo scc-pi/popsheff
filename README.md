@@ -17,7 +17,7 @@ devtools::install_github("scc-pi/popsheff")
 If you work for Sheffield City Council you can install the binary
 package for Windows from:
 
-S:\\BI Team\\ShareToAll\\RPackages
+> S:\\BI Team\\ShareToAll\\RPackages
 
 Using RStudio you can does this via the *Tools \> Install packages…*
 menu.
