@@ -15,7 +15,7 @@ devtools::install_github("scc-pi/popsheff")
 ```
 
 If you work for Sheffield City Council you can install the binary
-package from:
+package for Windows from:
 
 S:\\BI Team\\ShareToAll\\RPackages
 
