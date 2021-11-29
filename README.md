@@ -22,6 +22,13 @@ S:\\BI Team\\ShareToAll\\RPackages
 Using RStudio you can does this via the *Tools \> Install packages…*
 menu.
 
+# Source & format
+
+The data is from ONS. It has has been transformed into a [tidy
+data](https://r4ds.had.co.nz/tidy-data.html) format (or a tidier, longer
+format) so it is ready to use with
+[tidyverse](https://www.tidyverse.org/) R packages.
+
 # Population data frames
 
 ``` r
