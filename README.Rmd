@@ -68,6 +68,26 @@ head(pop_la_age_male)
 head(pop_la_age_female)
 ```
 
+## Ward level 
+
+### pop_ward_age
+
+```{r pop_ward_age}
+head(pop_ward_age)
+```
+
+### pop_ward_age_male
+
+```{r pop_ward_age_male}
+head(pop_ward_age_male)
+```
+
+### pop_ward_age_female
+
+```{r pop_ward_age_female}
+head(pop_ward_age_female)
+```
+
 ## LSOA level
 
 ### pop_lsoa_age_band

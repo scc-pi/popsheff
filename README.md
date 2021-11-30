@@ -107,6 +107,50 @@ head(pop_la_age_female)
     ## 5        3    3268
     ## 6        4    3262
 
+## Ward level
+
+### pop_ward_age
+
+``` r
+head(pop_ward_age)
+```
+
+    ##   Ward Code               Ward Name      Age Persons
+    ## 1 E05010857 Beauchief and Greenhill All Ages   19732
+    ## 2 E05010857 Beauchief and Greenhill        0     257
+    ## 3 E05010857 Beauchief and Greenhill        1     231
+    ## 4 E05010857 Beauchief and Greenhill        2     270
+    ## 5 E05010857 Beauchief and Greenhill        3     277
+    ## 6 E05010857 Beauchief and Greenhill        4     277
+
+### pop_ward_age_male
+
+``` r
+head(pop_ward_age_male)
+```
+
+    ##   Ward Code               Ward Name      Age Males
+    ## 1 E05010857 Beauchief and Greenhill All Ages  9429
+    ## 2 E05010857 Beauchief and Greenhill        0   135
+    ## 3 E05010857 Beauchief and Greenhill        1   117
+    ## 4 E05010857 Beauchief and Greenhill        2   131
+    ## 5 E05010857 Beauchief and Greenhill        3   144
+    ## 6 E05010857 Beauchief and Greenhill        4   138
+
+### pop_ward_age_female
+
+``` r
+head(pop_ward_age_female)
+```
+
+    ##   Ward Code               Ward Name      Age Females
+    ## 1 E05010857 Beauchief and Greenhill All Ages   10303
+    ## 2 E05010857 Beauchief and Greenhill        0     122
+    ## 3 E05010857 Beauchief and Greenhill        1     114
+    ## 4 E05010857 Beauchief and Greenhill        2     139
+    ## 5 E05010857 Beauchief and Greenhill        3     133
+    ## 6 E05010857 Beauchief and Greenhill        4     139
+
 ## LSOA level
 
 ### pop_lsoa_age_band
