@@ -89,20 +89,20 @@ pop_lac_age <- pop_ward_age %>%
   left_join(lkup_ward_lac, by = "Ward Code") %>% 
   select(-starts_with("Ward")) %>% 
   group_by(Age, ca_name, ca_number, asc_name) %>% 
-  summarise(Persons = sum(Persons)) %>% 
+  summarise(Persons = sum(Persons), .groups = "drop") %>% 
   relocate(c(Age, Persons), .after = last_col())
 
 pop_lac_age_male <- pop_ward_age_male %>%
   left_join(lkup_ward_lac, by = "Ward Code") %>% 
   select(-starts_with("Ward")) %>% 
-  group_by(Age, ca_name, ca_number, asc_name) %>% 
+  group_by(Age, ca_name, ca_number, asc_name, .groups = "drop") %>% 
   summarise(Males = sum(Males)) %>% 
   relocate(c(Age, Males), .after = last_col())
 
 pop_lac_age_female <- pop_ward_age_female %>%
   left_join(lkup_ward_lac, by = "Ward Code") %>% 
   select(-starts_with("Ward")) %>% 
-  group_by(Age, ca_name, ca_number, asc_name) %>% 
+  group_by(Age, ca_name, ca_number, asc_name, .groups = "drop") %>% 
   summarise(Females = sum(Females)) %>% 
   relocate(c(Age, Females), .after = last_col())
 
