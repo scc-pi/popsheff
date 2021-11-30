@@ -33,6 +33,33 @@
 #' @format A data frame with two variables: \code{Age} and \code{Females}.
 "pop_la_age_female"
 
+#' LAC population by year of age (2020).
+#'
+#' Local Area Committee population aggregated from ONS Ward data. LACs have the
+#' same boundaries as ASC (Adult Social Care) localities.
+#'
+#' @format A data frame with five variables: \code{ca_name}, 
+#' \code{ca_number}, \code{asc_name}, \code{Age} and \code{Persons}.
+"pop_lac_age"
+
+#' LAC male population by year of age (2020).
+#'
+#' Local Area Committee male population aggregated from ONS Ward data. LACs have 
+#' the same boundaries as ASC (Adult Social Care) localities.
+#'
+#' @format A data frame with five variables: \code{ca_name}, 
+#' \code{ca_number}, \code{asc_name}, \code{Age} and \code{Males}.
+"pop_lac_age_male"
+
+#' LAC female population by year of age (2020).
+#'
+#' Local Area Committee female population aggregated from ONS Ward data. LACs  
+#' have the same boundaries as ASC (Adult Social Care) localities.
+#'
+#' @format A data frame with five variables: \code{ca_name}, 
+#' \code{ca_number}, \code{asc_name}, \code{Age} and \code{Females}.
+"pop_lac_age_female"
+
 #' Ward population by year of age (2020).
 #'
 #' Sheffield population estimates provided by the ONS.

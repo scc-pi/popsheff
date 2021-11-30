@@ -107,6 +107,52 @@ head(pop_la_age_female)
     ## 5        3    3268
     ## 6        4    3262
 
+## LAC (Local Area Committee) level
+
+LAC boundaries are the same as ASC (Adult Social Care) localities.
+
+### pop_lac_age
+
+``` r
+head(pop_lac_age)
+```
+
+    ##      ca_name ca_number   asc_name Age Persons
+    ## 1    Central         3 Locality 5   0     684
+    ## 2       East         4 Locality 6   0    1058
+    ## 3      North         1 Locality 1   0     613
+    ## 4 North East         2 Locality 2   0    1271
+    ## 5      South         7 Locality 4   0    1037
+    ## 6 South East         5 Locality 7   0     679
+
+### pop_lac_age_male
+
+``` r
+head(pop_lac_age_male)
+```
+
+    ##      ca_name ca_number   asc_name Age Males
+    ## 1    Central         3 Locality 5   0   344
+    ## 2       East         4 Locality 6   0   517
+    ## 3      North         1 Locality 1   0   337
+    ## 4 North East         2 Locality 2   0   647
+    ## 5      South         7 Locality 4   0   545
+    ## 6 South East         5 Locality 7   0   333
+
+### pop_lac_age_female
+
+``` r
+head(pop_lac_age_female)
+```
+
+    ##      ca_name ca_number   asc_name Age Females
+    ## 1    Central         3 Locality 5   0     340
+    ## 2       East         4 Locality 6   0     541
+    ## 3      North         1 Locality 1   0     276
+    ## 4 North East         2 Locality 2   0     624
+    ## 5      South         7 Locality 4   0     492
+    ## 6 South East         5 Locality 7   0     346
+
 ## Ward level
 
 ### pop_ward_age

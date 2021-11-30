@@ -11,9 +11,6 @@ library(readxl)
 # Location of data we're reading
 data_in_folder <- "data-raw"
 
-# Location of data we're creating
-data_out_folder <- "data"
-
 # Name of file with population estimates at LA level
 pop_lsoa_file <- "sape23dt13mid2020lsoabroadagesestimatesunformatted.xlsx"
 

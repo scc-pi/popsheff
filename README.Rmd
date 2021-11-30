@@ -68,6 +68,28 @@ head(pop_la_age_male)
 head(pop_la_age_female)
 ```
 
+## LAC (Local Area Committee) level
+
+LAC boundaries are the same as ASC (Adult Social Care) localities.
+
+### pop_lac_age
+
+```{r pop_lac_age}
+head(pop_lac_age)
+```
+
+### pop_lac_age_male
+
+```{r pop_lac_age_male}
+head(pop_lac_age_male)
+```
+
+### pop_lac_age_female
+
+```{r pop_lac_age_female}
+head(pop_lac_age_female)
+```
+
 ## Ward level 
 
 ### pop_ward_age
