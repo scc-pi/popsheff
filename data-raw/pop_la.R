@@ -31,7 +31,7 @@ pop_age_male_sheet <- "MYE2 - Males"
 pop_age_female_sheet <- "MYE2 - Females"
 
 # Name of the file with detailed population estimates at LA level for 2000-20
-pop_la_file_ts <- 
+pop_la_ts_file <- 
   "MYEB1_detailed_population_estimates_series_UK_(2020_geog21).csv"
 
 # READ -------------------------
@@ -63,7 +63,7 @@ pop_la_age_female <- read_xls(
   skip = 7)
 
 pop_la_yrs_age_gender <- read_csv(
-  str_c(data_in_folder, "/", pop_la_file_ts))
+  str_c(data_in_folder, "/", pop_la_ts_file))
 
 # TRANSFORM ---------------------
 

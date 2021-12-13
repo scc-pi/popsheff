@@ -167,6 +167,34 @@ head(pop_lac_age_female)
     ## 5      South         7 Locality 4    drop   0     492
     ## 6 South East         5 Locality 7    drop   0     346
 
+### pop_lac_yrs
+
+``` r
+head(pop_lac_yrs)
+```
+
+    ##      ca_name ca_number   asc_name Year Persons
+    ## 1    Central         3 Locality 5 2001   64711
+    ## 2       East         4 Locality 6 2001   76599
+    ## 3      North         1 Locality 1 2001   70610
+    ## 4 North East         2 Locality 2 2001   83787
+    ## 5      South         7 Locality 4 2001   74330
+    ## 6 South East         5 Locality 7 2001   70900
+
+### pop_lac_yrs_age_gender
+
+``` r
+head(pop_lac_yrs_age_gender)
+```
+
+    ##      ca_name ca_number   asc_name Year Age Gender Persons
+    ## 1    Central         3 Locality 5 2001   0      F     295
+    ## 2       East         4 Locality 6 2001   0      F     474
+    ## 3      North         1 Locality 1 2001   0      F     320
+    ## 4 North East         2 Locality 2 2001   0      F     585
+    ## 5      South         7 Locality 4 2001   0      F     424
+    ## 6 South East         5 Locality 7 2001   0      F     349
+
 ## Ward level
 
 ### pop_ward_age
@@ -210,6 +238,34 @@ head(pop_ward_age_female)
     ## 4 E05010857 Beauchief and Greenhill        2     139
     ## 5 E05010857 Beauchief and Greenhill        3     133
     ## 6 E05010857 Beauchief and Greenhill        4     139
+
+### pop_ward_yrs
+
+``` r
+head(pop_ward_yrs)
+```
+
+    ##   Ward Code               Ward Name Year Persons
+    ## 1 E05010857 Beauchief and Greenhill 2001   18979
+    ## 2 E05010857 Beauchief and Greenhill 2002   18875
+    ## 3 E05010857 Beauchief and Greenhill 2003   18821
+    ## 4 E05010857 Beauchief and Greenhill 2004   18801
+    ## 5 E05010857 Beauchief and Greenhill 2005   19038
+    ## 6 E05010857 Beauchief and Greenhill 2006   19132
+
+### pop_ward_yrs_age_gender
+
+``` r
+head(pop_ward_yrs_age_gender)
+```
+
+    ##   Ward Code               Ward Name Year Gender Age Persons
+    ## 1 E05010857 Beauchief and Greenhill 2001      M   0     106
+    ## 2 E05010857 Beauchief and Greenhill 2001      M   1     113
+    ## 3 E05010857 Beauchief and Greenhill 2001      M   2     114
+    ## 4 E05010857 Beauchief and Greenhill 2001      M   3     126
+    ## 5 E05010857 Beauchief and Greenhill 2001      M   4     132
+    ## 6 E05010857 Beauchief and Greenhill 2001      M   5     112
 
 ## LSOA level
 

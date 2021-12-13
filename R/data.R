@@ -68,6 +68,22 @@
 #' \code{ca_number}, \code{asc_name}, \code{Age} and \code{Females}.
 "pop_lac_age_female"
 
+#' LAC population between 2001 and 2020.
+#'
+#' Sheffield population estimates provided by the ONS.
+#'
+#' @format A data frame with five variables: \code{ca_name}, \code{ca_number}, 
+#' \code{asc_name}, \code{Year} and \code{Persons}.
+"pop_lac_yrs"
+
+#' LAC population by age and gender between 2001 and 2020.
+#'
+#' Sheffield population estimates provided by the ONS.
+#'
+#' @format A data frame with seven variables: \code{ca_name}, \code{ca_number}, 
+#' \code{asc_name}, \code{Year}, \code{Age}, \code{Gender} and \code{Persons}.
+"pop_lac_yrs_age_gender"
+
 #' Ward population by year of age (2020).
 #'
 #' Sheffield population estimates provided by the ONS.
@@ -91,6 +107,22 @@
 #' @format A data frame with four variables: \code{Ward Code}, 
 #' \code{Ward Name}, \code{Age} and \code{Females}.
 "pop_ward_age_female"
+
+#' Ward population between 2001 and 2020.
+#'
+#' Sheffield population estimates provided by the ONS.
+#'
+#' @format A data frame with four variables: \code{Ward Code}, 
+#' \code{Ward Name}, \code{Year} and \code{Persons}.
+"pop_ward_yrs"
+
+#' Ward population by age and gender between 2001 and 2020.
+#'
+#' Sheffield population estimates provided by the ONS.
+#'
+#' @format A data frame with six variables: \code{Ward Code}, \code{Ward Name},  
+#' \code{Year}, \code{Age}, \code{Gender} and \code{Persons}.
+"pop_ward_yrs_age_gender"
 
 #' Population of Sheffield LSOAs by fifteen year age bands.
 #'
