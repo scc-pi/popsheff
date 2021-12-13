@@ -38,5 +38,8 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-#RStudio project files
+# RStudio project files
 *.Rproj
+
+# Files too large for GitHub
+data-raw/Wards21_01_20_pop_est.xlsx
