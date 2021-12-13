@@ -33,6 +33,14 @@
 #' @format A data frame with two variables: \code{Age} and \code{Females}.
 "pop_la_age_female"
 
+#' Sheffield population by year of age and gender from 2000 to 2020.
+#'
+#' Sheffield population estimates provided by the ONS.
+#'
+#' @format A data frame with four variables: \code{Gender}, \code{Age},
+#' \code{Year} and \code{Persons}.
+"pop_la_yrs_age_gender"
+
 #' LAC population by year of age (2020).
 #'
 #' Local Area Committee population aggregated from ONS Ward data. LACs have the

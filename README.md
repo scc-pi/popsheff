@@ -107,6 +107,20 @@ head(pop_la_age_female)
     ## 5        3    3268
     ## 6        4    3262
 
+### pop_la_yrs_age_gender
+
+``` r
+head(pop_la_yrs_age_gender)
+```
+
+    ##   Gender Age Year Persons
+    ## 1      M   0 2001    2777
+    ## 2      M   0 2002    2846
+    ## 3      M   0 2003    2828
+    ## 4      M   0 2004    3131
+    ## 5      M   0 2005    3175
+    ## 6      M   0 2006    3124
+
 ## LAC (Local Area Committee) level
 
 LAC boundaries are the same as ASC (Adult Social Care) localities.
@@ -131,13 +145,13 @@ head(pop_lac_age)
 head(pop_lac_age_male)
 ```
 
-    ##      ca_name ca_number   asc_name Age Males
-    ## 1    Central         3 Locality 5   0   344
-    ## 2       East         4 Locality 6   0   517
-    ## 3      North         1 Locality 1   0   337
-    ## 4 North East         2 Locality 2   0   647
-    ## 5      South         7 Locality 4   0   545
-    ## 6 South East         5 Locality 7   0   333
+    ##      ca_name ca_number   asc_name .groups Age Males
+    ## 1    Central         3 Locality 5    drop   0   344
+    ## 2       East         4 Locality 6    drop   0   517
+    ## 3      North         1 Locality 1    drop   0   337
+    ## 4 North East         2 Locality 2    drop   0   647
+    ## 5      South         7 Locality 4    drop   0   545
+    ## 6 South East         5 Locality 7    drop   0   333
 
 ### pop_lac_age_female
 
@@ -145,13 +159,13 @@ head(pop_lac_age_male)
 head(pop_lac_age_female)
 ```
 
-    ##      ca_name ca_number   asc_name Age Females
-    ## 1    Central         3 Locality 5   0     340
-    ## 2       East         4 Locality 6   0     541
-    ## 3      North         1 Locality 1   0     276
-    ## 4 North East         2 Locality 2   0     624
-    ## 5      South         7 Locality 4   0     492
-    ## 6 South East         5 Locality 7   0     346
+    ##      ca_name ca_number   asc_name .groups Age Females
+    ## 1    Central         3 Locality 5    drop   0     340
+    ## 2       East         4 Locality 6    drop   0     541
+    ## 3      North         1 Locality 1    drop   0     276
+    ## 4 North East         2 Locality 2    drop   0     624
+    ## 5      South         7 Locality 4    drop   0     492
+    ## 6 South East         5 Locality 7    drop   0     346
 
 ## Ward level
 
