@@ -3,7 +3,7 @@
 \docType{data}
 \name{pop_lac_age}
 \alias{pop_lac_age}
-\title{LAC population by year of age (2020).}
+\title{LAC population by age (2020).}
 \format{
 A data frame with five variables: \code{ca_name},
 \code{ca_number}, \code{asc_name}, \code{Age} and \code{Persons}.

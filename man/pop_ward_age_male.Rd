@@ -3,7 +3,7 @@
 \docType{data}
 \name{pop_ward_age_male}
 \alias{pop_ward_age_male}
-\title{Ward male population by year of age (2020).}
+\title{Ward male population by age (2020).}
 \format{
 A data frame with four variables: \code{Ward Code},
 \code{Ward Name}, \code{Age} and \code{Males}.

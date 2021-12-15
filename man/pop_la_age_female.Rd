@@ -3,7 +3,7 @@
 \docType{data}
 \name{pop_la_age_female}
 \alias{pop_la_age_female}
-\title{Sheffield female population by year of age (2020).}
+\title{Sheffield female population by age (2020).}
 \format{
 A data frame with two variables: \code{Age} and \code{Females}.
 }

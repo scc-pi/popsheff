@@ -140,6 +140,38 @@ head(pop_ward_yrs)
 head(pop_ward_yrs_age_gender)
 ```
 
+## Neighbourhood level 
+
+### pop_nhood_age
+
+```{r pop_nhood_age}
+head(pop_nhood_age)
+```
+
+### pop_nhood_age_male
+
+```{r pop_nhood_age_male}
+head(pop_nhood_age_male)
+```
+
+### pop_nhood_age_female
+
+```{r pop_nhood_age_female}
+head(pop_nhood_age_female)
+```
+
+### pop_nhood_yrs_age
+
+```{r pop_nhood_yrs_age}
+head(pop_nhood_yrs_age)
+```
+
+### pop_nhood_yrs_age_gender
+
+```{r pop_nhood_yrs_age_gender}
+head(pop_nhood_yrs_age_gender)
+```
+
 ## LSOA level
 
 ### pop_lsoa_age_band

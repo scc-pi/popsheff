@@ -267,6 +267,78 @@ head(pop_ward_yrs_age_gender)
     ## 5 E05010857 Beauchief and Greenhill 2001      M   4     132
     ## 6 E05010857 Beauchief and Greenhill 2001      M   5     112
 
+## Neighbourhood level
+
+### pop_nhood_age
+
+``` r
+head(pop_nhood_age)
+```
+
+    ##   nhood_code nhood_name      Age Persons
+    ## 1          1 High Green All ages    9493
+    ## 2          1 High Green        0     101
+    ## 3          1 High Green        1      94
+    ## 4          1 High Green        2      88
+    ## 5          1 High Green        3     104
+    ## 6          1 High Green        4     122
+
+### pop_nhood_age_male
+
+``` r
+head(pop_nhood_age_male)
+```
+
+    ##   nhood_code nhood_name      Age Males
+    ## 1          1 High Green All ages  4613
+    ## 2          1 High Green        0    53
+    ## 3          1 High Green        1    53
+    ## 4          1 High Green        2    40
+    ## 5          1 High Green        3    53
+    ## 6          1 High Green        4    68
+
+### pop_nhood_age_female
+
+``` r
+head(pop_nhood_age_female)
+```
+
+    ##   nhood_code nhood_name      Age Females
+    ## 1          1 High Green All ages    4880
+    ## 2          1 High Green        0      48
+    ## 3          1 High Green        1      41
+    ## 4          1 High Green        2      48
+    ## 5          1 High Green        3      51
+    ## 6          1 High Green        4      54
+
+### pop_nhood_yrs_age
+
+``` r
+head(pop_nhood_yrs_age)
+```
+
+    ##   nhood_code nhood_name Year      Age Persons
+    ## 1          1 High Green 2020 All ages    9493
+    ## 2          1 High Green 2020        0     101
+    ## 3          1 High Green 2020        1      94
+    ## 4          1 High Green 2020        2      88
+    ## 5          1 High Green 2020        3     104
+    ## 6          1 High Green 2020        4     122
+
+### pop_nhood_yrs_age_gender
+
+``` r
+head(pop_nhood_yrs_age_gender)
+```
+
+    ##   nhood_code nhood_name Year      Age Gender Persons
+    ## 1          1 High Green 2020 All ages      M    4613
+    ## 2          1 High Green 2020        0      M      53
+    ## 3          1 High Green 2020        1      M      53
+    ## 4          1 High Green 2020        2      M      40
+    ## 5          1 High Green 2020        3      M      53
+    ## 6          1 High Green 2020        4      M      68
+
 ## LSOA level
 
 ### pop_lsoa_age_band

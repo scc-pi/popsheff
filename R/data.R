@@ -12,28 +12,28 @@
 #' @format A data frame with two variables: \code{Year} and \code{Median age}.
 "pop_la_median_age"
 
-#' Sheffield population by year of age (2020).
+#' Sheffield population by age (2020).
 #'
 #' Sheffield population estimates provided by the ONS.
 #'
 #' @format A data frame with two variables: \code{Age} and \code{Persons}.
 "pop_la_age"
 
-#' Sheffield male population by year of age (2020).
+#' Sheffield male population by age (2020).
 #'
 #' Sheffield population estimates provided by the ONS.
 #'
 #' @format A data frame with two variables: \code{Age} and \code{Males}.
 "pop_la_age_male"
 
-#' Sheffield female population by year of age (2020).
+#' Sheffield female population by age (2020).
 #'
 #' Sheffield population estimates provided by the ONS.
 #'
 #' @format A data frame with two variables: \code{Age} and \code{Females}.
 "pop_la_age_female"
 
-#' Sheffield population by year of age and gender from 2000 to 2020.
+#' Sheffield population by age and gender from 2000 to 2020.
 #'
 #' Sheffield population estimates provided by the ONS.
 #'
@@ -41,7 +41,7 @@
 #' \code{Year} and \code{Persons}.
 "pop_la_yrs_age_gender"
 
-#' LAC population by year of age (2020).
+#' LAC population by age (2020).
 #'
 #' Local Area Committee population aggregated from ONS Ward data. LACs have the
 #' same boundaries as ASC (Adult Social Care) localities.
@@ -50,7 +50,7 @@
 #' \code{ca_number}, \code{asc_name}, \code{Age} and \code{Persons}.
 "pop_lac_age"
 
-#' LAC male population by year of age (2020).
+#' LAC male population by age (2020).
 #'
 #' Local Area Committee male population aggregated from ONS Ward data. LACs have 
 #' the same boundaries as ASC (Adult Social Care) localities.
@@ -59,7 +59,7 @@
 #' \code{ca_number}, \code{asc_name}, \code{Age} and \code{Males}.
 "pop_lac_age_male"
 
-#' LAC female population by year of age (2020).
+#' LAC female population by age (2020).
 #'
 #' Local Area Committee female population aggregated from ONS Ward data. LACs  
 #' have the same boundaries as ASC (Adult Social Care) localities.
@@ -84,7 +84,7 @@
 #' \code{asc_name}, \code{Year}, \code{Age}, \code{Gender} and \code{Persons}.
 "pop_lac_yrs_age_gender"
 
-#' Ward population by year of age (2020).
+#' Ward population by age (2020).
 #'
 #' Sheffield population estimates provided by the ONS.
 #'
@@ -92,7 +92,7 @@
 #' \code{Ward Name}, \code{Age} and \code{Persons}.
 "pop_ward_age"
 
-#' Ward male population by year of age (2020).
+#' Ward male population by age (2020).
 #'
 #' Sheffield population estimates provided by the ONS.
 #'
@@ -100,7 +100,7 @@
 #' \code{Ward Name}, \code{Age} and \code{Males}.
 "pop_ward_age_male"
 
-#' Ward female population by year of age (2020).
+#' Ward female population by age (2020).
 #'
 #' Sheffield population estimates provided by the ONS.
 #'
@@ -123,6 +123,46 @@
 #' @format A data frame with six variables: \code{Ward Code}, \code{Ward Name},  
 #' \code{Year}, \code{Age}, \code{Gender} and \code{Persons}.
 "pop_ward_yrs_age_gender"
+
+#' Neighbourhood population by age (2020).
+#'
+#' Sheffield neighbourhood population estimates provided by Dale.
+#'
+#' @format A data frame with four variables: \code{nhood_code}, 
+#' \code{nhood_name}, \code{Age} and \code{Persons}.
+"pop_nhood_age"
+
+#' Neighbourhood male population by age (2020).
+#'
+#' Sheffield neighbourhood population estimates provided by Dale.
+#'
+#' @format A data frame with four variables: \code{nhood_code}, 
+#' \code{nhood_name}, \code{Age} and \code{Males}.
+"pop_nhood_age_male"
+
+#' Neighbourhood female population by age (2020).
+#'
+#' Sheffield neighbourhood population estimates provided by Dale.
+#'
+#' @format A data frame with four variables: \code{nhood_code}, 
+#' \code{nhood_name}, \code{Age} and \code{Females}.
+"pop_nhood_age_female"
+
+#' Neighbourhood population by age between 2017 and 2020.
+#'
+#' Sheffield neighbourhood population estimates provided by Dale.
+#'
+#' @format A data frame with four variables: \code{nhood_code}, 
+#' \code{nhood_name}, \code{Year}, \code{Age} and \code{Persons}.
+"pop_nhood_yrs_age"
+
+#' Neighbourhood population by age and gender between 2017 and 2020.
+#'
+#' Sheffield neighbourhood population estimates provided by Dale.
+#'
+#' @format A data frame with four variables: \code{nhood_code}, 
+#' \code{nhood_name}, \code{Year}, \code{Age}, \code{Gender} and \code{Persons}.
+"pop_nhood_yrs_age"
 
 #' Population of Sheffield LSOAs by fifteen year age bands.
 #'
