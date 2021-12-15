@@ -1,39 +1,39 @@
-#' Sheffield population from 2001 to 2020.
+#' City population from 2001 to 2020.
 #'
 #' Sheffield population estimates provided by the ONS.
 #'
 #' @format A data frame with two variables: \code{Year} and \code{Population}.
 "pop_la_yrs"
 
-#' Median age of Sheffield population from 2001 to 2020.
+#' City median age from 2001 to 2020.
 #'
 #' Sheffield population estimates provided by the ONS.
 #'
 #' @format A data frame with two variables: \code{Year} and \code{Median age}.
 "pop_la_median_age"
 
-#' Sheffield population by age (2020).
+#' City population by age (2020).
 #'
 #' Sheffield population estimates provided by the ONS.
 #'
 #' @format A data frame with two variables: \code{Age} and \code{Persons}.
 "pop_la_age"
 
-#' Sheffield male population by age (2020).
+#' City male population by age (2020).
 #'
 #' Sheffield population estimates provided by the ONS.
 #'
 #' @format A data frame with two variables: \code{Age} and \code{Males}.
 "pop_la_age_male"
 
-#' Sheffield female population by age (2020).
+#' City female population by age (2020).
 #'
 #' Sheffield population estimates provided by the ONS.
 #'
 #' @format A data frame with two variables: \code{Age} and \code{Females}.
 "pop_la_age_female"
 
-#' Sheffield population by age and gender from 2000 to 2020.
+#' City population by age and gender from 2000 to 2020.
 #'
 #' Sheffield population estimates provided by the ONS.
 #'
@@ -164,7 +164,7 @@
 #' \code{nhood_name}, \code{Year}, \code{Age}, \code{Gender} and \code{Persons}.
 "pop_nhood_yrs_age"
 
-#' Population of Sheffield LSOAs by fifteen year age bands.
+#' LSOA population by fifteen year age bands.
 #'
 #' Sheffield population provided by the ONS. 2020 mid-year estimates.
 #'

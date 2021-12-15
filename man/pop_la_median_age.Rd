@@ -3,7 +3,7 @@
 \docType{data}
 \name{pop_la_median_age}
 \alias{pop_la_median_age}
-\title{Median age of Sheffield population from 2001 to 2020.}
+\title{City median age from 2001 to 2020.}
 \format{
 A data frame with two variables: \code{Year} and \code{Median age}.
 }

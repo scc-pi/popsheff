@@ -3,7 +3,7 @@
 \docType{data}
 \name{pop_lsoa_age_band}
 \alias{pop_lsoa_age_band}
-\title{Population of Sheffield LSOAs by fifteen year age bands.}
+\title{LSOA population by fifteen year age bands.}
 \format{
 A data frame with four variables: \code{LSOA Code}, \code{LSOA Name},
 \code{Age band} and \code{Population}.
