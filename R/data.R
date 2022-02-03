@@ -171,3 +171,11 @@
 #' @format A data frame with four variables: \code{LSOA Code}, \code{LSOA Name},
 #'   \code{Age band} and \code{Population}.
 "pop_lsoa_age_band"
+
+#' Lookup for Wards and LACs
+#'
+#' Four Sheffield Wards in each LAC (same boundaries as ASC Localities)
+#'
+#' @format A data frame with four variables: \code{Ward Code}, \code{ca_name},
+#'   \code{ca_number} and \code{asc_name}.
+"lkup_ward_lac"

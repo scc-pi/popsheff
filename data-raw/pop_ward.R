@@ -170,3 +170,5 @@ usethis::use_data(pop_lac_age_female, compress = "xz", overwrite = T)
 usethis::use_data(pop_lac_yrs, compress = "xz", overwrite = T)
 
 usethis::use_data(pop_lac_yrs_age_gender, compress = "xz", overwrite = T)
+
+usethis::use_data(lkup_ward_lac, compress = "xz", overwrite = T)
