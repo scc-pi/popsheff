@@ -125,6 +125,22 @@ head(pop_la_yrs_age_gender)
 
 LAC boundaries are the same as ASC (Adult Social Care) localities.
 
+### lkup_ward_lac
+
+Lookup for Wards and LACs (four Wards in each LAC).
+
+``` r
+head(lkup_ward_lac)
+```
+
+    ##   Ward Code    ca_name ca_number   asc_name
+    ## 1 E05010857      South         7 Locality 4
+    ## 2 E05010858 South East         5 Locality 7
+    ## 3 E05010859 South East         5 Locality 7
+    ## 4 E05010860    Central         3 Locality 5
+    ## 5 E05010861 North East         2 Locality 2
+    ## 6 E05010862    Central         3 Locality 5
+
 ### pop_lac_age
 
 ``` r

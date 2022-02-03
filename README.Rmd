@@ -78,6 +78,14 @@ head(pop_la_yrs_age_gender)
 
 LAC boundaries are the same as ASC (Adult Social Care) localities.
 
+### lkup_ward_lac
+
+Lookup for Wards and LACs (four Wards in each LAC).
+
+```{r lkup_ward_lac}
+head(lkup_ward_lac)
+```
+
 ### pop_lac_age
 
 ```{r pop_lac_age}
